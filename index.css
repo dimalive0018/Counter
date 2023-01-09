@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;
+    background-color: #C9C2C5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-block: 30vh;
+    margin-inline: auto;
+    height: 20vh;
+    width: 10rem;
+    background-color: #5EBEC4;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 5%;
+}
+
+.display {
+    width: 95%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: xx-large;
+    color: #070606;
+    background-color: #FFFDFA;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset, rgba(3, 102, 214, 0.3) 0px 0px 0px 3px, rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+button {
+    background-color: #5EBEC4;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset, rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    cursor: pointer;
+}
+
+.display:hover {
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.decrement_increment_container {
+    width: 95%;
+    height: 1.5rem;
+    margin-bottom: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #070606;
+}
+
+.increment {
+    width: inherit;
+}
+
+.decrement {
+    width: inherit;
+}
+
+.reset {
+    width: 95%;
+}
