@@ -7,7 +7,7 @@
 
 ![Forks](https://img.shields.io/github/forks/liviodimola/Counter?style=social) ![Stargazers](https://img.shields.io/github/stars/liviodimola/Counter?style=social) 
 
-![Screen Shot](https://i.ibb.co/kX5hpBj/counter-ogim.png)
+![Screen Shot](https://i.ibb.co/g9nmJ1g/counter-immagine.png)
 Trovi il progetto [qui](https://counter-s2i-liviodimola.netlify.app/)
 
 ## Costruito con
