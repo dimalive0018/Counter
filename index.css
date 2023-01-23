@@ -7,7 +7,7 @@
     background-color: #C9C2C5;
 }
 
-.container {
+#container {
     display: flex;
     flex-direction: column;
     margin-block: 30vh;
@@ -21,7 +21,7 @@
     border-radius: 5%;
 }
 
-.display {
+#display {
     width: 95%;
     margin-bottom: 10%;
     text-align: center;
@@ -37,7 +37,7 @@ button {
     cursor: pointer;
 }
 
-.display:hover {
+#display:hover {
     opacity: 0.9;
 }
 
@@ -49,7 +49,7 @@ button:active {
     transform: scale(0.9);
 }
 
-.decrement_increment_container {
+#decrement_increment_container {
     width: 95%;
     height: 1.5rem;
     margin-bottom: 10%;
@@ -60,14 +60,14 @@ button:active {
     color: #070606;
 }
 
-.increment {
+#increment {
     width: inherit;
 }
 
-.decrement {
+#decrement {
     width: inherit;
 }
 
-.reset {
+#reset {
     width: 95%;
 }
